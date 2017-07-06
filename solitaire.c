@@ -314,7 +314,7 @@ int main(void)
 
 void print_directions(void)
 {
-	printf("The Game-of-Solitaire\n\n\tThe goal of the game is to move all of the cards from the field to the\nhome piles marked A-D in ascending order starting with ACE then TWO\ns and so forth. The field decks marked 1-7 are used create lists in descending order starting from KING then QUEEN and so forth. Any empty spaces marked * is open to place a KING down and start a list.");
+	printf("The Game-of-Solitaire\n\n\tThe goal of the game is to move all of the cards from the field to the\nhome piles marked A-D in ascending order starting with ACE then TWO\ns and so forth. The field decks marked 1-7 are used create lists in descending order starting from KING then QUEEN and so forth. Any empty spaces marked * is open to place a KING down and start a list.\n\nEnter key: Move through home pile\n\nTo move cards around, type two numbers: [Pile to remove][Pile to add to]\nTo move multiple Cards: [Pile to remove]m. Then type[Card rank of the pile][Pile to add to]\n");
 }
 
 void print_divider(FILE* fout, char ch, unsigned int total)
